@@ -1,0 +1,5 @@
+.hg
+.hgignore
+*~
+a.out
+*.class
