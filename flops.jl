@@ -1,3 +1,4 @@
+import Printf.@printf
 
 function dtime(p)
     q = p[2]
@@ -65,7 +66,7 @@ function main()
 
     println("   Module     Error        RunTime      MFLOPS")
     println("                            (usec)")
-    TimeArray = Array{Float64}(4)
+    TimeArray = Array{Float64}(undef,4)
     dtime(TimeArray)
     dtime(TimeArray)
 
